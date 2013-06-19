@@ -17,14 +17,15 @@
 
     <div class="container">
 
-      <form class="form-signin">
+      <form class="form-signin" id="form">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+        <input id="username" name="username" type="text" class="input-block-level required email" placeholder="Email address">
+        <input id="password" name="password" type="password" class="input-block-level required" placeholder="Password">
         <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
+          <input class="subscribe" type="checkbox" value="subscribe"> Subscribe to newsletter
         </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+        <input id="subscribe-email" type="ext" name="subscribe-email" value="subscribe-email" placeholder="Enter Your Email">
+        <button id="submit" class="btn btn-large btn-primary" type="submit">Sign in</button>
       </form>
 
     </div> <!-- /container -->
@@ -34,6 +35,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/application.js"></script>
     
 
   </body>

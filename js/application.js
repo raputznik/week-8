@@ -36,8 +36,8 @@ jQuery(document).ready(function($) {
 			}
 		},
 
-		messages : {
-			username : {
+			messages : {
+				username : {
 				required : "Come on now, don't be shy",
 				email : "We need real email"
 			},
